@@ -79,7 +79,7 @@ public class GameController {
             System.err.println("日期區間不符規則");
             return false;
         } else {
-            System.out.println("日期區間不符規則");
+            System.err.println("日期區間符合規則");
             return true;
         }
     }
